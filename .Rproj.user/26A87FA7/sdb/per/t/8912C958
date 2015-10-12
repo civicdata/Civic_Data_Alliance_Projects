@@ -1,0 +1,18 @@
+{
+    "contents" : "CodesAndRegsPermits<-read.csv('CodesAndRegsPermits.csv')\nCodesAndRegsPermits$IssueDate <- as.Date(as.character(CodesAndRegsPermits$IssueDate), format='%m/%d/%Y %H:%M')\nuniqueYear<-unique(as.POSIXlt(CodesAndRegsPermits$IssueDate)$year)\nuniqueYear<-sort(uniqueYear)\npermitsByYear<-lapply(uniqueYear,function(i){ sum(i == as.POSIXlt(CodesAndRegsPermits$IssueDate)$year)})\npermitsByYear<-data.frame(uniqueYear,unlist(permitsByYear))\ncolnames(permitsByYear)<-c('year','permits')\npermitsByYear$year<-2003:2015\n",
+    "created" : 1444406004278.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1935476747",
+    "id" : "8912C958",
+    "lastKnownWriteTime" : 1444417100,
+    "path" : "C:/GitHub/LouDataProj/LouDataProj.R",
+    "project_path" : "LouDataProj.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
