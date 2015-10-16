@@ -1,0 +1,18 @@
+CrimeByMDAbbrn<!-- html table generated in R 3.2.2 by xtable 1.7-4 package -->
+<!-- Fri Oct 16 17:04:45 2015 -->
+<table border=1>
+<tr> <th>  </th> <th> Estimate </th> <th> Std. Error </th> <th> t value </th> <th> Pr(&gt;|t|) </th>  </tr>
+  <tr> <td align="right"> (Intercept) </td> <td align="right"> -14046.2929 </td> <td align="right"> 6957.4277 </td> <td align="right"> -2.02 </td> <td align="right"> 0.0586 </td> </tr>
+  <tr> <td align="right"> MDFTEPerT </td> <td align="right"> 0.9946 </td> <td align="right"> 1.8391 </td> <td align="right"> 0.54 </td> <td align="right"> 0.5953 </td> </tr>
+  <tr> <td align="right"> percentMale </td> <td align="right"> 2122.0255 </td> <td align="right"> 454.1985 </td> <td align="right"> 4.67 </td> <td align="right"> 0.0002 </td> </tr>
+  <tr> <td align="right"> percentUnder20 </td> <td align="right"> 5844.4715 </td> <td align="right"> 6026.1877 </td> <td align="right"> 0.97 </td> <td align="right"> 0.3450 </td> </tr>
+  <tr> <td align="right"> percent20to40 </td> <td align="right"> 6118.5148 </td> <td align="right"> 5931.7935 </td> <td align="right"> 1.03 </td> <td align="right"> 0.3160 </td> </tr>
+  <tr> <td align="right"> percent40to60 </td> <td align="right"> 5436.9024 </td> <td align="right"> 6085.7054 </td> <td align="right"> 0.89 </td> <td align="right"> 0.3834 </td> </tr>
+  <tr> <td align="right"> percent60to80 </td> <td align="right"> 7076.2936 </td> <td align="right"> 5905.2776 </td> <td align="right"> 1.20 </td> <td align="right"> 0.2463 </td> </tr>
+  <tr> <td align="right"> percent80Plus </td> <td align="right"> 5579.3519 </td> <td align="right"> 6304.8885 </td> <td align="right"> 0.88 </td> <td align="right"> 0.3879 </td> </tr>
+  <tr> <td align="right"> percentWhiteAlone </td> <td align="right"> 7055.1525 </td> <td align="right"> 3399.7667 </td> <td align="right"> 2.08 </td> <td align="right"> 0.0526 </td> </tr>
+  <tr> <td align="right"> percentBlackAAAlone </td> <td align="right"> 7356.1561 </td> <td align="right"> 3396.0997 </td> <td align="right"> 2.17 </td> <td align="right"> 0.0440 </td> </tr>
+  <tr> <td align="right"> percentAsianAlone </td> <td align="right"> 6345.0189 </td> <td align="right"> 3437.4345 </td> <td align="right"> 1.85 </td> <td align="right"> 0.0814 </td> </tr>
+  <tr> <td align="right"> NotBlackWhiteAsian </td> <td align="right"> 5138.5472 </td> <td align="right"> 2278.0236 </td> <td align="right"> 2.26 </td> <td align="right"> 0.0368 </td> </tr>
+  <tr> <td align="right"> income </td> <td align="right"> -0.0015 </td> <td align="right"> 0.0018 </td> <td align="right"> -0.87 </td> <td align="right"> 0.3951 </td> </tr>
+   </table>
