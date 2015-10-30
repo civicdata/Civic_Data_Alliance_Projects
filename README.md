@@ -12,3 +12,4 @@ Things done so far:
 	b. Used ACS census data
 	c. Modeled density of primary care physicians on the crime rate
 	d. Got no results.  But will write about it!
+	e. Wrote about this here: http://robertkahne.net/blog/index.php/2015/10/30/exploring-louisville-public-data-primary-care-physicians-and-crime-rates/
