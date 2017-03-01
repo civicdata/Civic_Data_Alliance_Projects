@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1487970280476.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D65FD484",
+    "lastKnownWriteTime" : 7308604914264011873,
+    "last_content_update" : 1487970280476,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "76848A54",
+        "caption" : "firearm_summary",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=firearm_summary&cache_key=76848A54",
+        "displayedObservations" : 35,
+        "environment" : "",
+        "object" : "firearm_summary",
+        "preview" : 0,
+        "totalObservations" : 35,
+        "variables" : 2
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

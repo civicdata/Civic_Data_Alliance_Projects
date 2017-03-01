@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "rlk_theme<-function(base_family = \"Open Sans\", base_size = 12) {\n  theme_bw(base_family = base_family, base_size = base_size) +\n  theme(\n    plot.title = element_text(face = 'bold', hjust = 0, color=\"#4292c6\", size= 24),\n    plot.subtitle = element_text(face = 'bold', hjust = 0, color=\"#4292c6\", size= 14),\n    text = element_text(colour = 'black'),\n    panel.background = element_blank(),\n    strip.background = element_blank(),\n    plot.background = element_rect('#F6F6F6'),\n    panel.border = element_blank(),\n    panel.grid.major.x = element_blank(),\n    panel.grid.major.y = element_line(color=\"#4292c6\",size=rel(1.75)),\n    panel.grid.minor.y = element_blank(),\n    panel.grid.minor.x = element_blank(),\n    legend.background = element_blank(),\n    legend.title = element_text(face='bold', size=8, color=\"#4292c6\"),\n    legend.position = 'bottom',\n    legend.direction = 'horizontal',\n    legend.key = element_blank(),\n    legend.text= element_text(face='bold', size=8, color=\"#4292c6\"),\n    strip.text = element_blank(),\n    axis.text.y = element_text(size = 10, color='#000000'),\n    axis.text.x = element_text(size = 10, color='#000000'),\n    axis.title = element_text(face = 'bold', size = 10, color='#000000'),\n    axis.ticks = element_blank()\n  )\n}\n\n\nfirearms_data$level_of_analysis <- unlist(firearms_data[analysis_factor])\nplot_data<- firearms_data %>% \n  filter(level_of_analysis == filter_value, !is.na(year)) %>% \n  group_by(year) %>% \n  dplyr::summarize(total = n()) %>% \n  arrange(desc(total)) %>% \n  mutate(color = 'bluish')\n\nggplot(plot_data, aes(x = as.character(year), y=total, fill = color, label = total)) + \n  geom_bar(stat='identity')+\n  geom_label() +\n  scale_fill_manual(values = c('bluish' = '#2171b5'))+\n  labs(title = paste0(analysis_factor,' ~ ',filter_value),\n       y = 'Number of Incidents',\n       x = '')+\n  rlk_theme() + \n  theme(legend.position = 'none')\n",
+    "created" : 1488316547683.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2619907271",
+    "id" : "74583EC",
+    "lastKnownWriteTime" : 1488318884,
+    "last_content_update" : 1488318884853,
+    "path" : "C:/GitHub/Louisville_Firearms/plot_maker.R",
+    "project_path" : "plot_maker.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
